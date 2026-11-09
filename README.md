@@ -15,3 +15,6 @@ https://github.com/Gamedev-HW/The-Alchemists-Missing-Pages/blob/main/formal-elem
 
 # Itch.io Link:
 https://gamedev-hw.itch.io/the-alchemists-missing-pages
+
+# Youtube Link:
+https://youtu.be/koTAmfx9TD0
