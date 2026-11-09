@@ -1,0 +1,625 @@
+fileFormatVersion: 2
+guid: 72a6715f8bbf8bc49bf5167e51a43031
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7963351947084396725
+    second: fx_slice_0
+  - first:
+      213: -6752201980682302297
+    second: fx_slice_1
+  - first:
+      213: 5182191468267362664
+    second: fx_slice_2
+  - first:
+      213: -7214097746658237285
+    second: fx_slice_3
+  - first:
+      213: 5359017871064011101
+    second: fx_slice_4
+  - first:
+      213: 4445410226365146306
+    second: fx_slice_5
+  - first:
+      213: 8155958320938164826
+    second: fx_slice_6
+  - first:
+      213: 584957658255568560
+    second: fx_slice_7
+  - first:
+      213: -5269560139980952285
+    second: fx_slice_8
+  - first:
+      213: 2567678730061296103
+    second: fx_slice_9
+  - first:
+      213: -826053487560277980
+    second: fx_slice_10
+  - first:
+      213: 4453913142464841708
+    second: fx_slice_11
+  - first:
+      213: -3718170087771477998
+    second: fx_slice_12
+  - first:
+      213: 6513004261347758723
+    second: fx_slice_13
+  - first:
+      213: 7951357457871162049
+    second: fx_slice_14
+  - first:
+      213: -3664939304396300517
+    second: fx_slice_15
+  - first:
+      213: 1196820624162647628
+    second: fx_slice_16
+  - first:
+      213: 9113274361866850414
+    second: fx_slice_17
+  - first:
+      213: -297578834570859571
+    second: fx_slice_18
+  - first:
+      213: 2378596881963342835
+    second: fx_slice_19
+  - first:
+      213: -8227898880322635616
+    second: fx_slice_20
+  - first:
+      213: -1503931504023871758
+    second: fx_slice_21
+  - first:
+      213: 6538382234367945202
+    second: fx_slice_22
+  - first:
+      213: 8689645241867761935
+    second: fx_slice_23
+  - first:
+      213: 8925027460606506987
+    second: fx_slice_24
+  - first:
+      213: 8822823833775934704
+    second: fx_slice_25
+  - first:
+      213: 3926547516301148062
+    second: fx_slice_26
+  - first:
+      213: -2198485912248526647
+    second: fx_slice_27
+  - first:
+      213: 9092214825339108794
+    second: fx_slice_28
+  - first:
+      213: -8052796818067503827
+    second: fx_slice_29
+  - first:
+      213: -8344930774429821664
+    second: fx_slice_30
+  - first:
+      213: -345850905972744496
+    second: fx_slice_31
+  - first:
+      213: -9215409655885269372
+    second: fx_slice_32
+  - first:
+      213: 6432891468158750745
+    second: fx_slice_33
+  - first:
+      213: -2952678993616971588
+    second: fx_slice_34
+  - first:
+      213: -5543279689468357992
+    second: fx_slice_35
+  - first:
+      213: -6154391652549924052
+    second: fx_slice_36
+  - first:
+      213: -8097170127026713481
+    second: fx_slice_37
+  - first:
+      213: 5454275953627148762
+    second: fx_slice_38
+  - first:
+      213: 8452834914510232751
+    second: fx_slice_39
+  - first:
+      213: -5133027403668471567
+    second: fx_slice_40
+  - first:
+      213: -2895318146099846971
+    second: fx_slice_41
+  - first:
+      213: -4000939348191703920
+    second: fx_slice_42
+  - first:
+      213: -6712949702119113877
+    second: fx_slice_43
+  - first:
+      213: -3707896169122141686
+    second: fx_slice_44
+  - first:
+      213: -2739530856959198900
+    second: fx_slice_45
+  - first:
+      213: -1062426081032765891
+    second: fx_slice_46
+  - first:
+      213: -7738668791469577058
+    second: fx_slice_47
+  - first:
+      213: -1315934402595972141
+    second: fx_slice_48
+  - first:
+      213: -9106635131841220669
+    second: fx_slice_49
+  - first:
+      213: -8663826479643714900
+    second: fx_slice_50
+  - first:
+      213: 4089402188511909974
+    second: fx_slice_51
+  - first:
+      213: 845979918762197618
+    second: fx_slice_52
+  - first:
+      213: 6541002505195866604
+    second: fx_slice_53
+  - first:
+      213: 4191555680576658028
+    second: fx_slice_54
+  - first:
+      213: 5498770559575610687
+    second: fx_slice_55
+  - first:
+      213: 1459252501537927567
+    second: fx_slice_56
+  - first:
+      213: 1762383839492757860
+    second: fx_slice_57
+  - first:
+      213: -5607500704055672031
+    second: fx_slice_58
+  - first:
+      213: -3635784667117941034
+    second: fx_slice_59
+  - first:
+      213: 3539821827699186014
+    second: fx_slice_60
+  - first:
+      213: -4072955190639373084
+    second: fx_slice_61
+  - first:
+      213: 695588266658246608
+    second: fx_slice_62
+  - first:
+      213: 8389934374141016545
+    second: fx_slice_63
+  - first:
+      213: -1661724997766720577
+    second: fx_slice_64
+  - first:
+      213: 7400197937467878698
+    second: fx_slice_65
+  - first:
+      213: -2133697617537897256
+    second: fx_slice_66
+  - first:
+      213: 2478590805285013401
+    second: fx_slice_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 48
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fx_slice_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4204f7ccab44984f0800000000000000
+      internalID: -826053487560277980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_11
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce78f0db76a7fcd30800000000000000
+      internalID: 4453913142464841708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99726aa3e9aa48f41b2c50a7e9d7cae9
+      internalID: 1121621960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_01
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693383e470686a343acf437d47133880
+      internalID: -1769485350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_02
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd6bf5ad1cb6cf44977e693b3e0af8e
+      internalID: -2056211287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_03
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0086768b6d3bc4b858bb23547f2c46
+      internalID: -2053668932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_04
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6687db82dbd06df43954713d51a7469c
+      internalID: 1359211521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_05
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81aed8f7d36973449b055a4f4d710daf
+      internalID: -1369323060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_06
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980092e4f1f254a42b78766d8e3bde49
+      internalID: 176940408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_07
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8505a32142a0247843ec2a44a4f2ec
+      internalID: 980824118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_08
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782f876ff4f67724282ad539bba54055
+      internalID: 100673141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_slice_09
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467fa1009cb2f46448cb7ad00938b3f4
+      internalID: -1295137271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: aa42dcb77ba250c47a9fa62186dd849d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fx_slice_00: 1121621960
+      fx_slice_01: -1769485350
+      fx_slice_02: -2056211287
+      fx_slice_03: -2053668932
+      fx_slice_04: 1359211521
+      fx_slice_05: -1369323060
+      fx_slice_06: 176940408
+      fx_slice_07: 980824118
+      fx_slice_08: 100673141
+      fx_slice_09: -1295137271
+      fx_slice_10: -826053487560277980
+      fx_slice_11: 4453913142464841708
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

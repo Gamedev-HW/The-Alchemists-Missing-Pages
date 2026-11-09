@@ -1,0 +1,619 @@
+fileFormatVersion: 2
+guid: 605aaad901c0a5a48a23a92d8e97c95d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7357322515862126882
+    second: fx_steam_0
+  - first:
+      213: 1198068688576932423
+    second: fx_steam_1
+  - first:
+      213: -4056402109819223102
+    second: fx_steam_2
+  - first:
+      213: 3004539621392445182
+    second: fx_steam_3
+  - first:
+      213: -2931434916688530004
+    second: fx_steam_4
+  - first:
+      213: 7365403376933120173
+    second: fx_steam_5
+  - first:
+      213: -7714384086918273026
+    second: fx_steam_6
+  - first:
+      213: -8219722966758483552
+    second: fx_steam_7
+  - first:
+      213: 7689389503082352803
+    second: fx_steam_8
+  - first:
+      213: 1147470228206759156
+    second: fx_steam_9
+  - first:
+      213: -8575386966665892402
+    second: fx_steam_10
+  - first:
+      213: -6435132995770978702
+    second: fx_steam_11
+  - first:
+      213: 640826782161817701
+    second: fx_steam_12
+  - first:
+      213: -8138291707289558854
+    second: fx_steam_13
+  - first:
+      213: -9195166788030037100
+    second: fx_steam_14
+  - first:
+      213: -5172685901792988480
+    second: fx_steam_15
+  - first:
+      213: -8941532180221819283
+    second: fx_steam_16
+  - first:
+      213: -3922913395174914583
+    second: fx_steam_17
+  - first:
+      213: -7067548836416931445
+    second: fx_steam_18
+  - first:
+      213: 6646394190823350254
+    second: fx_steam_19
+  - first:
+      213: -3139709724023297094
+    second: fx_steam_20
+  - first:
+      213: 6274630438704135299
+    second: fx_steam_21
+  - first:
+      213: -5310671488536142969
+    second: fx_steam_22
+  - first:
+      213: 5964544615318979791
+    second: fx_steam_23
+  - first:
+      213: 8219441081077454569
+    second: fx_steam_24
+  - first:
+      213: 808197679038530310
+    second: fx_steam_25
+  - first:
+      213: -6067667629338417444
+    second: fx_steam_26
+  - first:
+      213: 7514764576679726635
+    second: fx_steam_27
+  - first:
+      213: -8737256303698164505
+    second: fx_steam_28
+  - first:
+      213: -6187718591889334906
+    second: fx_steam_29
+  - first:
+      213: 3395205546779031960
+    second: fx_steam_30
+  - first:
+      213: -6157398931152249708
+    second: fx_steam_31
+  - first:
+      213: -2869478562580301752
+    second: fx_steam_32
+  - first:
+      213: -3559917605454481180
+    second: fx_steam_33
+  - first:
+      213: 9078523776523574176
+    second: fx_steam_34
+  - first:
+      213: 1312334649635430371
+    second: fx_steam_35
+  - first:
+      213: 1927914335589750643
+    second: fx_steam_36
+  - first:
+      213: -953793389503417716
+    second: fx_steam_37
+  - first:
+      213: -4596359485381206349
+    second: fx_steam_38
+  - first:
+      213: -102794944419666565
+    second: fx_steam_39
+  - first:
+      213: -9019310662619425442
+    second: fx_steam_40
+  - first:
+      213: 4989263838777212159
+    second: fx_steam_41
+  - first:
+      213: -9148926439880760407
+    second: fx_steam_42
+  - first:
+      213: 3221367288233721692
+    second: fx_steam_43
+  - first:
+      213: -792222082964692456
+    second: fx_steam_44
+  - first:
+      213: 1420888715076545034
+    second: fx_steam_45
+  - first:
+      213: 7744307492792860942
+    second: fx_steam_46
+  - first:
+      213: -778570819023618128
+    second: fx_steam_47
+  - first:
+      213: -9061863135303817226
+    second: fx_steam_48
+  - first:
+      213: 6081517747253285659
+    second: fx_steam_49
+  - first:
+      213: -2828620614622594487
+    second: fx_steam_50
+  - first:
+      213: -1223096614765134675
+    second: fx_steam_51
+  - first:
+      213: 4809988904070108444
+    second: fx_steam_52
+  - first:
+      213: -6215200017156455391
+    second: fx_steam_53
+  - first:
+      213: -7822136232302057400
+    second: fx_steam_54
+  - first:
+      213: 4738494185087084038
+    second: fx_steam_55
+  - first:
+      213: 518173766577920602
+    second: fx_steam_56
+  - first:
+      213: 2284438474162818865
+    second: fx_steam_57
+  - first:
+      213: -7927172925187249733
+    second: fx_steam_58
+  - first:
+      213: -4354496816919263460
+    second: fx_steam_59
+  - first:
+      213: 1625268384894272643
+    second: fx_steam_60
+  - first:
+      213: -4291538715576460671
+    second: fx_steam_61
+  - first:
+      213: -6322687044941264565
+    second: fx_steam_62
+  - first:
+      213: 3041101116542832372
+    second: fx_steam_63
+  - first:
+      213: -5629207087224426288
+    second: fx_steam_64
+  - first:
+      213: -5860271674216470483
+    second: fx_steam_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 48
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fx_steam_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd6d58fcfa1ef880800000000000000
+      internalID: -8575386966665892402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_11
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27eeca892a0d1b6a0800000000000000
+      internalID: -6435132995770978702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad2dd5157a2e854296ccd6c773534f2
+      internalID: 1952727153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_01
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5894141e9ce50d4f9678d9729ac098d
+      internalID: 1751933237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_02
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3545fd3eaaa1f054f8ca587cbda1e07b
+      internalID: 527820325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_03
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df7bfc6bdec0a347958ed6a54ca34f8
+      internalID: -1638849561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_04
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 320
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db8832f3d7e4794a8359c67937f9254
+      internalID: 1121125208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_05
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 320
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83cc959970844648b9752844c766808
+      internalID: -388946554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_06
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069d212f570cd3340beee1ae69bcb743
+      internalID: 1487689787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_07
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4932abefbc36041ab417e5e3f553ef
+      internalID: -1098461977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_08
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11b7b97a2c8f30428a9eb36a367466b
+      internalID: -652523032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_steam_09
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 320
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d797e3915427dd24196d3dc1b0bd4189
+      internalID: -1714367534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5baac5df20f1ab6498f97cdfb12b9877
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fx_steam_00: 1952727153
+      fx_steam_01: 1751933237
+      fx_steam_02: 527820325
+      fx_steam_03: -1638849561
+      fx_steam_04: 1121125208
+      fx_steam_05: -388946554
+      fx_steam_06: 1487689787
+      fx_steam_07: -1098461977
+      fx_steam_08: -652523032
+      fx_steam_09: -1714367534
+      fx_steam_10: -8575386966665892402
+      fx_steam_11: -6435132995770978702
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

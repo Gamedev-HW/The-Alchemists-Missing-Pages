@@ -1,0 +1,60 @@
+# .gitignore for a Unity project (Unity 6). Put this file in the Unity project folder,
+# next to Assets, Packages and ProjectSettings.
+
+# ---- Folders Unity re-creates by itself: never commit them (Library alone is often several GB)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# ---- Your builds (an .apk is usually too big for GitHub, which refuses files over 100 MB)
+/[Bb]uild/
+/[Bb]uilds/
+*.apk
+*.aab
+*.symbols.zip
+*.unitypackage
+
+# ---- .meta files ARE needed: they hold the import settings and the links between assets
+!/[Aa]ssets/**/*.meta
+
+# ---- Files your code editor generates (Visual Studio, VS Code, Rider)
+.vs/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ---- Crash reports and other generated files
+sysinfo.txt
+crashlytics-build.properties
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ---- Windows / Mac junk
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 4d5ff49a70fbc34428271a0186da3a78
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 167866504463145037
+    second: fx_splash_0
+  - first:
+      213: -3680854067685732631
+    second: fx_splash_1
+  - first:
+      213: 6832876941473378000
+    second: fx_splash_2
+  - first:
+      213: -1900967354775950733
+    second: fx_splash_3
+  - first:
+      213: 7268523017320393230
+    second: fx_splash_4
+  - first:
+      213: 4795096200280210451
+    second: fx_splash_5
+  - first:
+      213: -6954753530169324211
+    second: fx_splash_6
+  - first:
+      213: -3862089784770442052
+    second: fx_splash_7
+  - first:
+      213: 4795860411199354461
+    second: fx_splash_8
+  - first:
+      213: 7715700040445497968
+    second: fx_splash_9
+  - first:
+      213: -4660326381826192501
+    second: fx_splash_10
+  - first:
+      213: -7353865573568167368
+    second: fx_splash_11
+  - first:
+      213: 3423164295380885624
+    second: fx_splash_12
+  - first:
+      213: -4065577731404620406
+    second: fx_splash_13
+  - first:
+      213: -7164332118775309568
+    second: fx_splash_14
+  - first:
+      213: -7564636245285788501
+    second: fx_splash_15
+  - first:
+      213: 743117041237561401
+    second: fx_splash_16
+  - first:
+      213: 8148848661220311659
+    second: fx_splash_17
+  - first:
+      213: -2518156745774266797
+    second: fx_splash_18
+  - first:
+      213: 5663446307626038736
+    second: fx_splash_19
+  - first:
+      213: 8844007436391664062
+    second: fx_splash_20
+  - first:
+      213: 5132485265789271700
+    second: fx_splash_21
+  - first:
+      213: 567750529166973288
+    second: fx_splash_22
+  - first:
+      213: -1660590870810309931
+    second: fx_splash_23
+  - first:
+      213: -6055090890817949439
+    second: fx_splash_24
+  - first:
+      213: -7031804240526378224
+    second: fx_splash_25
+  - first:
+      213: -211935253743045517
+    second: fx_splash_26
+  - first:
+      213: 6368886001236670713
+    second: fx_splash_27
+  - first:
+      213: 8887246358941733357
+    second: fx_splash_28
+  - first:
+      213: 3647485792913241499
+    second: fx_splash_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: 48
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fx_splash_00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c29e79903bd224448044b8ccf565f19
+      internalID: -1867707943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_splash_01
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1703168c271e341b484eb5b529998e
+      internalID: -1261939506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_splash_02
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87d60861bcae014c888cf10d0d541ef
+      internalID: -1661851546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_splash_03
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7d74263285f954bb55e3967e4ed331
+      internalID: -457511541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_splash_04
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242344b03d7b4934cbac670e041395f2
+      internalID: 1463200245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_splash_05
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb17730791821e4982e1f39e518075d
+      internalID: 1529828517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_splash_06
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc71e56a1f5e9024b9b8d8cbc3d89d7b
+      internalID: -586551045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_splash_07
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cdb663d7cd13b4d82cd7a2dfdcb4df
+      internalID: -1775297382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_splash_08
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e6ef8fa6e76394d878ea959def336c
+      internalID: -596712354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fx_splash_09
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 384
+        height: 256
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2188}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c8ec45ce3b1524882528fc47bf5e14
+      internalID: 580032266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 9f92153f0bb73a74fbd73e148dbd2fce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fx_splash_00: -1867707943
+      fx_splash_01: -1261939506
+      fx_splash_02: -1661851546
+      fx_splash_03: -457511541
+      fx_splash_04: 1463200245
+      fx_splash_05: 1529828517
+      fx_splash_06: -586551045
+      fx_splash_07: -1775297382
+      fx_splash_08: -596712354
+      fx_splash_09: 580032266
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
