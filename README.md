@@ -18,3 +18,6 @@ https://gamedev-hw.itch.io/the-alchemists-missing-pages
 
 # Youtube Link:
 https://youtu.be/koTAmfx9TD0
+
+# Controls:
+click on the screen on the place you want to select, click the bottom three bottons to commit verious changes
