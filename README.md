@@ -13,5 +13,5 @@ Lior Shulman - ליאור שולמן
 # Formal Elements 
 https://github.com/Gamedev-HW/The-Alchemists-Missing-Pages/blob/main/formal-elements-The-Alchemist's-Missing-Pages.md
 
-#Itch.io Link:
+# Itch.io Link:
 https://gamedev-hw.itch.io/the-alchemists-missing-pages
