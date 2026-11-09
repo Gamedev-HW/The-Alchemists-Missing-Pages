@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea9fe003c3d1b241910eddb5355c187, type: 3}
+  m_Name: 1_MoonlightElixir
+  m_EditorClassIdentifier: Assembly-CSharp::PotionLab.RecipeData
+  potionName: Moonlight Elixir
+  bookText: '1. POUR the base liquid up to the silver band on the gauge.
+
+    2. Take the Moonstone from the top shelf and SLICE it.
+
+    3. Send it TO THE POT.
+
+    4. MIX it ~~~ times  (an ink blot hides the number).
+
+    5. SERVE.'
+  pourMin: 0.4
+  pourMax: 0.62
+  steps:
+  - ingredient: {fileID: 11400000, guid: 1d25f4fe0df244248839c06c1697fe97, type: 2}
+    prep: 1
+  orderMatters: 1
+  mixTimes: 2
+  potionColor: {r: 0.86, g: 0.86, b: 1, a: 1}

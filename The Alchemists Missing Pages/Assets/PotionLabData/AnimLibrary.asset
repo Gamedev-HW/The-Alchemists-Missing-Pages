@@ -1,0 +1,398 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da76de889c3034e4b9319b1f7addbee0, type: 3}
+  m_Name: AnimLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::PotionLab.AnimLibrary
+  clips:
+  - name: wizard_idle
+    frames:
+    - {fileID: 243144259, guid: f8fd2d7db0cb2664ab4c44d61b813656, type: 3}
+    - {fileID: -1201099132, guid: f8fd2d7db0cb2664ab4c44d61b813656, type: 3}
+    - {fileID: -1213845425, guid: f8fd2d7db0cb2664ab4c44d61b813656, type: 3}
+    - {fileID: 1056614846, guid: f8fd2d7db0cb2664ab4c44d61b813656, type: 3}
+    - {fileID: -1936848584, guid: f8fd2d7db0cb2664ab4c44d61b813656, type: 3}
+    - {fileID: -947199946, guid: f8fd2d7db0cb2664ab4c44d61b813656, type: 3}
+    - {fileID: -1146876279, guid: f8fd2d7db0cb2664ab4c44d61b813656, type: 3}
+    - {fileID: -1430225568, guid: f8fd2d7db0cb2664ab4c44d61b813656, type: 3}
+    fps: 8
+    loop: 1
+    wandTip:
+    - {x: -2.7596002, y: 6.06}
+    - {x: -2.6646001, y: 6.08}
+    - {x: -2.6246002, y: 6.0889997}
+    - {x: -2.6646001, y: 6.08}
+    - {x: -2.7596002, y: 6.06}
+    - {x: -2.8536003, y: 6.037}
+    - {x: -2.8916001, y: 6.026}
+    - {x: -2.8536003, y: 6.037}
+  - name: wizard_cast_spot
+    frames:
+    - {fileID: 771252328, guid: 5314b01c8ff16a942909afa1f9ed4ce0, type: 3}
+    - {fileID: -1677254422, guid: 5314b01c8ff16a942909afa1f9ed4ce0, type: 3}
+    - {fileID: 1236277987, guid: 5314b01c8ff16a942909afa1f9ed4ce0, type: 3}
+    - {fileID: 1916549213, guid: 5314b01c8ff16a942909afa1f9ed4ce0, type: 3}
+    - {fileID: -222551053, guid: 5314b01c8ff16a942909afa1f9ed4ce0, type: 3}
+    - {fileID: 1280039720, guid: 5314b01c8ff16a942909afa1f9ed4ce0, type: 3}
+    - {fileID: 839274595, guid: 5314b01c8ff16a942909afa1f9ed4ce0, type: 3}
+    - {fileID: 1811858769, guid: 5314b01c8ff16a942909afa1f9ed4ce0, type: 3}
+    fps: 12
+    loop: 0
+    wandTip:
+    - {x: -2.7596002, y: 6.06}
+    - {x: -2.2066004, y: 6.258}
+    - {x: -1.7576001, y: 6.346}
+    - {x: -2.5696, y: 6.151}
+    - {x: -4.1406, y: 4.945}
+    - {x: -4.6066003, y: 4}
+    - {x: -4.5706, y: 4.111}
+    - {x: -4.5296, y: 4.222}
+  - name: wizard_cast_pot
+    frames:
+    - {fileID: 84482405, guid: b96dd777263a3ed47a18dc7050f7e5a1, type: 3}
+    - {fileID: -31807820, guid: b96dd777263a3ed47a18dc7050f7e5a1, type: 3}
+    - {fileID: -2145022339, guid: b96dd777263a3ed47a18dc7050f7e5a1, type: 3}
+    - {fileID: 844964860, guid: b96dd777263a3ed47a18dc7050f7e5a1, type: 3}
+    - {fileID: 890834844, guid: b96dd777263a3ed47a18dc7050f7e5a1, type: 3}
+    - {fileID: -732616903, guid: b96dd777263a3ed47a18dc7050f7e5a1, type: 3}
+    - {fileID: 699275234, guid: b96dd777263a3ed47a18dc7050f7e5a1, type: 3}
+    - {fileID: -2134623949, guid: b96dd777263a3ed47a18dc7050f7e5a1, type: 3}
+    fps: 12
+    loop: 0
+    wandTip:
+    - {x: -2.7596002, y: 6.06}
+    - {x: -2.2066004, y: 6.258}
+    - {x: -1.7576001, y: 6.346}
+    - {x: -2.5696, y: 6.151}
+    - {x: -4.2696004, y: 4.7479997}
+    - {x: -4.7146, y: 3.542}
+    - {x: -4.6936, y: 3.658}
+    - {x: -4.6686, y: 3.7729998}
+  - name: wizard_stir
+    frames:
+    - {fileID: -430434394, guid: 727e270d421103b4c9346c993343c5ff, type: 3}
+    - {fileID: -274296782, guid: 727e270d421103b4c9346c993343c5ff, type: 3}
+    - {fileID: -1449557006, guid: 727e270d421103b4c9346c993343c5ff, type: 3}
+    - {fileID: -2054212879, guid: 727e270d421103b4c9346c993343c5ff, type: 3}
+    - {fileID: 793703835, guid: 727e270d421103b4c9346c993343c5ff, type: 3}
+    - {fileID: 1280372040, guid: 727e270d421103b4c9346c993343c5ff, type: 3}
+    - {fileID: 987579285, guid: 727e270d421103b4c9346c993343c5ff, type: 3}
+    - {fileID: 963808325, guid: 727e270d421103b4c9346c993343c5ff, type: 3}
+    fps: 10
+    loop: 1
+    wandTip:
+    - {x: -4.5596004, y: 3.887}
+    - {x: -4.4946003, y: 4.1289997}
+    - {x: -4.5076003, y: 4.226}
+    - {x: -4.6086, y: 4.1289997}
+    - {x: -4.7196, y: 3.887}
+    - {x: -4.7616, y: 3.6379998}
+    - {x: -4.7236004, y: 3.5340002}
+    - {x: -4.6476, y: 3.6379998}
+  - name: wizard_happy
+    frames:
+    - {fileID: 1271648331, guid: a7840d90c1cdd5641927117dc3fbc801, type: 3}
+    - {fileID: 616938814, guid: a7840d90c1cdd5641927117dc3fbc801, type: 3}
+    - {fileID: 1569876556, guid: a7840d90c1cdd5641927117dc3fbc801, type: 3}
+    - {fileID: -1855438102, guid: a7840d90c1cdd5641927117dc3fbc801, type: 3}
+    - {fileID: -472527005, guid: a7840d90c1cdd5641927117dc3fbc801, type: 3}
+    - {fileID: -142269236, guid: a7840d90c1cdd5641927117dc3fbc801, type: 3}
+    fps: 10
+    loop: 0
+    wandTip:
+    - {x: -2.7596002, y: 6.06}
+    - {x: -2.2066004, y: 6.378}
+    - {x: -1.7446002, y: 6.566}
+    - {x: -1.5106003, y: 6.525}
+    - {x: -1.9776001, y: 6.37}
+    - {x: -2.5426002, y: 6.151}
+  - name: wizard_oops
+    frames:
+    - {fileID: 116300111, guid: 9a250adfdc2017b449b5a97b391566e2, type: 3}
+    - {fileID: 620897675, guid: 9a250adfdc2017b449b5a97b391566e2, type: 3}
+    - {fileID: 1902132903, guid: 9a250adfdc2017b449b5a97b391566e2, type: 3}
+    - {fileID: -515650974, guid: 9a250adfdc2017b449b5a97b391566e2, type: 3}
+    - {fileID: -1620269852, guid: 9a250adfdc2017b449b5a97b391566e2, type: 3}
+    - {fileID: 1319026487, guid: 9a250adfdc2017b449b5a97b391566e2, type: 3}
+    fps: 10
+    loop: 0
+    wandTip:
+    - {x: -2.7596002, y: 6.06}
+    - {x: -2.2496002, y: 6.226}
+    - {x: -1.8776001, y: 6.31}
+    - {x: -2.0126002, y: 6.2860003}
+    - {x: -2.2796001, y: 6.226}
+    - {x: -2.5426002, y: 6.151}
+  - name: fx_wand_tip
+    frames:
+    - {fileID: -31441392, guid: 30f5d507eebdca54e8715d8da9bfe7c5, type: 3}
+    - {fileID: 2036796481, guid: 30f5d507eebdca54e8715d8da9bfe7c5, type: 3}
+    - {fileID: -936494014, guid: 30f5d507eebdca54e8715d8da9bfe7c5, type: 3}
+    - {fileID: 1680193038, guid: 30f5d507eebdca54e8715d8da9bfe7c5, type: 3}
+    - {fileID: 681201024, guid: 30f5d507eebdca54e8715d8da9bfe7c5, type: 3}
+    - {fileID: -1572706033, guid: 30f5d507eebdca54e8715d8da9bfe7c5, type: 3}
+    - {fileID: 1138430984, guid: 30f5d507eebdca54e8715d8da9bfe7c5, type: 3}
+    - {fileID: -722450052, guid: 30f5d507eebdca54e8715d8da9bfe7c5, type: 3}
+    fps: 16
+    loop: 1
+    wandTip: []
+  - name: fx_spell_beam
+    frames:
+    - {fileID: 141628023, guid: fbc3a280fc4c7a8479e68df95977e7dc, type: 3}
+    - {fileID: 2041382899, guid: fbc3a280fc4c7a8479e68df95977e7dc, type: 3}
+    - {fileID: -1666760215, guid: fbc3a280fc4c7a8479e68df95977e7dc, type: 3}
+    - {fileID: -879845663, guid: fbc3a280fc4c7a8479e68df95977e7dc, type: 3}
+    - {fileID: 507107474, guid: fbc3a280fc4c7a8479e68df95977e7dc, type: 3}
+    - {fileID: -1138310349, guid: fbc3a280fc4c7a8479e68df95977e7dc, type: 3}
+    - {fileID: 998468480, guid: fbc3a280fc4c7a8479e68df95977e7dc, type: 3}
+    - {fileID: -1721698151, guid: fbc3a280fc4c7a8479e68df95977e7dc, type: 3}
+    fps: 16
+    loop: 1
+    wandTip: []
+  - name: fx_slice
+    frames:
+    - {fileID: 1121621960, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: -1769485350, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: -2056211287, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: -2053668932, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: 1359211521, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: -1369323060, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: 176940408, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: 980824118, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: 100673141, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: -1295137271, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: -826053487560277980, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    - {fileID: 4453913142464841708, guid: 72a6715f8bbf8bc49bf5167e51a43031, type: 3}
+    fps: 20
+    loop: 0
+    wandTip: []
+  - name: fx_heat_back
+    frames:
+    - {fileID: -1092461436, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: 153305326, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: 1502929908, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: -133069293, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: -1916883968, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: -944805764, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: -408920373, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: 1783665863, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: 1750428935, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: 749576720, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: -8361905484915259117, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    - {fileID: -898644134, guid: 7752276a342196a4bbee6e019a62b7ee, type: 3}
+    fps: 16
+    loop: 0
+    wandTip: []
+  - name: fx_heat_front
+    frames:
+    - {fileID: -1515105087, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: -1350030380, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: 1201171447, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: -1924518497, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: -1562304715, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: 246480303, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: -90926659, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: 1853542565, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: -1712092744, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: -686384354, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: 1878132588499802736, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    - {fileID: -5752898019861615302, guid: 8d2a42c0ea0a72d4b854906214bef54b, type: 3}
+    fps: 16
+    loop: 0
+    wandTip: []
+  - name: fx_heat
+    frames:
+    - {fileID: 907088544, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: 2082572861, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: -1132668569, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: 2072403072, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: 332034202, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: 1912829131, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: -1341655964, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: -975179505, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: -701423530, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: -671801769, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: 2627963928185187134, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    - {fileID: -4262047669822072517, guid: 5517eee805a1c69438bfb262a5b22c27, type: 3}
+    fps: 16
+    loop: 0
+    wandTip: []
+  - name: fx_levitate
+    frames:
+    - {fileID: -1979208751, guid: bf3e724ffba5aa44889021a23a0aa893, type: 3}
+    - {fileID: -1224644916, guid: bf3e724ffba5aa44889021a23a0aa893, type: 3}
+    - {fileID: -743647624, guid: bf3e724ffba5aa44889021a23a0aa893, type: 3}
+    - {fileID: -1706116761, guid: bf3e724ffba5aa44889021a23a0aa893, type: 3}
+    - {fileID: 1539687247, guid: bf3e724ffba5aa44889021a23a0aa893, type: 3}
+    - {fileID: 526562559, guid: bf3e724ffba5aa44889021a23a0aa893, type: 3}
+    - {fileID: 1956221953, guid: bf3e724ffba5aa44889021a23a0aa893, type: 3}
+    - {fileID: -352647038, guid: bf3e724ffba5aa44889021a23a0aa893, type: 3}
+    fps: 12
+    loop: 1
+    wandTip: []
+  - name: fx_splash
+    frames:
+    - {fileID: -1867707943, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    - {fileID: -1261939506, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    - {fileID: -1661851546, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    - {fileID: -457511541, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    - {fileID: 1463200245, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    - {fileID: 1529828517, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    - {fileID: -586551045, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    - {fileID: -1775297382, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    - {fileID: -596712354, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    - {fileID: 580032266, guid: 4d5ff49a70fbc34428271a0186da3a78, type: 3}
+    fps: 20
+    loop: 0
+    wandTip: []
+  - name: fx_pour_stream
+    frames:
+    - {fileID: 1192263260, guid: c3c3b07e46a5be040bb3dc4bfe0a3a17, type: 3}
+    - {fileID: 1283712366, guid: c3c3b07e46a5be040bb3dc4bfe0a3a17, type: 3}
+    - {fileID: 523515144, guid: c3c3b07e46a5be040bb3dc4bfe0a3a17, type: 3}
+    - {fileID: 1865811545, guid: c3c3b07e46a5be040bb3dc4bfe0a3a17, type: 3}
+    - {fileID: 1323991777, guid: c3c3b07e46a5be040bb3dc4bfe0a3a17, type: 3}
+    - {fileID: 320038835, guid: c3c3b07e46a5be040bb3dc4bfe0a3a17, type: 3}
+    - {fileID: -1976439300, guid: c3c3b07e46a5be040bb3dc4bfe0a3a17, type: 3}
+    - {fileID: -500985383, guid: c3c3b07e46a5be040bb3dc4bfe0a3a17, type: 3}
+    fps: 16
+    loop: 1
+    wandTip: []
+  - name: fx_mix
+    frames:
+    - {fileID: -1024514102, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: -1986301675, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: -1288976400, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: 1547592297, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: 1745889663, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: -896333856, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: 887106454, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: 56097681, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: -2134353855, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: -1657615530, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: 5306973551400063423, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: -7292316731777158717, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: -7071120915130813211, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: -3580185725329855727, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: 6499790700734273779, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    - {fileID: -2933768876974523214, guid: d6d065654900a204dadce22e4729ade3, type: 3}
+    fps: 16
+    loop: 1
+    wandTip: []
+  - name: fx_serve
+    frames:
+    - {fileID: -248383660, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: -911341928, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: -1794918640, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: -400948418, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: -257581770, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: 1507992426, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: 438155199, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: -1665084475, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: 1702770753, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: -1070312262, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: -2186619700504200891, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: -8789868176777853585, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: 168288058530675137, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    - {fileID: -2311569247559437161, guid: 5dfd85dfad3f99b449035c3ae5c8cc48, type: 3}
+    fps: 18
+    loop: 0
+    wandTip: []
+  - name: fx_bubbles
+    frames:
+    - {fileID: -1642415054, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: -1231590646, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: 827932220, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: 299724085, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: -1327927169, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: 2056150421, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: 314847618, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: -1502438625, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: 460574236, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: -139870187, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: 6666511041013922257, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    - {fileID: -799769590690923931, guid: b6522bb9e0b6516499528034b79a6d04, type: 3}
+    fps: 12
+    loop: 1
+    wandTip: []
+  - name: fx_smoke_fail
+    frames:
+    - {fileID: 1983938189, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: 923060795, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: 2043734186, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: 446318231, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: 533971024, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: -1553644297, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: 631120646, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: -575175640, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: -1287964014, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: 759260038, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: 2952936313099617230, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    - {fileID: -1351983265122495129, guid: 1b92af1dc7257b44b99316e244e7adc9, type: 3}
+    fps: 14
+    loop: 0
+    wandTip: []
+  - name: fx_steam
+    frames:
+    - {fileID: 1952727153, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: 1751933237, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: 527820325, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: -1638849561, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: 1121125208, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: -388946554, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: 1487689787, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: -1098461977, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: -652523032, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: -1714367534, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: -8575386966665892402, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    - {fileID: -6435132995770978702, guid: 605aaad901c0a5a48a23a92d8e97c95d, type: 3}
+    fps: 12
+    loop: 1
+    wandTip: []
+  - name: fx_candle_flame
+    frames:
+    - {fileID: -384586555, guid: 8d048c8161562734892cd5629daaf9ca, type: 3}
+    - {fileID: 981576295, guid: 8d048c8161562734892cd5629daaf9ca, type: 3}
+    - {fileID: -1645243652, guid: 8d048c8161562734892cd5629daaf9ca, type: 3}
+    - {fileID: 251820929, guid: 8d048c8161562734892cd5629daaf9ca, type: 3}
+    - {fileID: 1969649066, guid: 8d048c8161562734892cd5629daaf9ca, type: 3}
+    - {fileID: -361076814, guid: 8d048c8161562734892cd5629daaf9ca, type: 3}
+    - {fileID: 2046025418, guid: 8d048c8161562734892cd5629daaf9ca, type: 3}
+    - {fileID: -223550039, guid: 8d048c8161562734892cd5629daaf9ca, type: 3}
+    fps: 10
+    loop: 1
+    wandTip: []
+  - name: fx_cauldron_fire
+    frames:
+    - {fileID: 335219013, guid: d8c3b575a614b8441ad51def63d6f26e, type: 3}
+    - {fileID: 1710041012, guid: d8c3b575a614b8441ad51def63d6f26e, type: 3}
+    - {fileID: -453794274, guid: d8c3b575a614b8441ad51def63d6f26e, type: 3}
+    - {fileID: -354426802, guid: d8c3b575a614b8441ad51def63d6f26e, type: 3}
+    - {fileID: 1654169479, guid: d8c3b575a614b8441ad51def63d6f26e, type: 3}
+    - {fileID: -1648021665, guid: d8c3b575a614b8441ad51def63d6f26e, type: 3}
+    - {fileID: -1607366347, guid: d8c3b575a614b8441ad51def63d6f26e, type: 3}
+    - {fileID: -1303614149, guid: d8c3b575a614b8441ad51def63d6f26e, type: 3}
+    fps: 12
+    loop: 1
+    wandTip: []
+  - name: fx_poof
+    frames:
+    - {fileID: -1505464136, guid: f07a9737400222d418b7fb1f5cf5aaf9, type: 3}
+    - {fileID: -972640297, guid: f07a9737400222d418b7fb1f5cf5aaf9, type: 3}
+    - {fileID: -207078902, guid: f07a9737400222d418b7fb1f5cf5aaf9, type: 3}
+    - {fileID: 836895265, guid: f07a9737400222d418b7fb1f5cf5aaf9, type: 3}
+    - {fileID: 1633101176, guid: f07a9737400222d418b7fb1f5cf5aaf9, type: 3}
+    - {fileID: -1674483767, guid: f07a9737400222d418b7fb1f5cf5aaf9, type: 3}
+    - {fileID: -1983749387, guid: f07a9737400222d418b7fb1f5cf5aaf9, type: 3}
+    - {fileID: -1297022044, guid: f07a9737400222d418b7fb1f5cf5aaf9, type: 3}
+    fps: 16
+    loop: 0
+    wandTip: []

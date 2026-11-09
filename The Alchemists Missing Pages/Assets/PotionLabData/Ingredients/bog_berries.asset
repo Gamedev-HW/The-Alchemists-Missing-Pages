@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2b7e00a5d097d419204e5e14e53ec7, type: 3}
+  m_Name: bog_berries
+  m_EditorClassIdentifier: Assembly-CSharp::PotionLab.IngredientData
+  id: bog_berries
+  displayName: Bog Berries
+  hebrewName: "\u05D2\u05E8\u05D2\u05E8\u05D9 \u05D1\u05D9\u05E6\u05D4"
+  liquidTint: {r: 0.5411765, g: 0.16470589, b: 0.72156864, a: 1}
+  canSlice: 1
+  canHeat: 1
+  shelf: {fileID: 21300000, guid: cfcbdb37edbf8b9448d562f345ef024e, type: 3}
+  glow: {fileID: 21300000, guid: 9a1ec67bb3c6e494880794231c89a882, type: 3}
+  raw: {fileID: 21300000, guid: a1f92cd7fe2a44e43bccd56aa9e11426, type: 3}
+  sliced: {fileID: 21300000, guid: 44c18c9d8505c424ba8e5a13266dca1c, type: 3}
+  heated: {fileID: 21300000, guid: 8437fec8ae137e94089fc02f84dee4c0, type: 3}
+  slicedHeated: {fileID: 21300000, guid: 3ec8aafb8da9da149be6bfcb3f7b68f2, type: 3}

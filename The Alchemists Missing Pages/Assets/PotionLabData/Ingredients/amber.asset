@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2b7e00a5d097d419204e5e14e53ec7, type: 3}
+  m_Name: amber
+  m_EditorClassIdentifier: Assembly-CSharp::PotionLab.IngredientData
+  id: amber
+  displayName: Amber Resin
+  hebrewName: "\u05E9\u05E8\u05E3 \u05E2\u05E0\u05D1\u05E8"
+  liquidTint: {r: 0.9529412, g: 0.6039216, b: 0.16470589, a: 1}
+  canSlice: 1
+  canHeat: 1
+  shelf: {fileID: 21300000, guid: a87b591a594cfef448c40ba189b1b88b, type: 3}
+  glow: {fileID: 21300000, guid: 8cf01d77510f1fc4d89d4da38981fe41, type: 3}
+  raw: {fileID: 21300000, guid: 939a7811b56409c4dbcbd45a37adec4b, type: 3}
+  sliced: {fileID: 21300000, guid: df6d4999b6188c348a624ed006f60458, type: 3}
+  heated: {fileID: 21300000, guid: a1cf9c5cf70867844889e132721cf9ec, type: 3}
+  slicedHeated: {fileID: 21300000, guid: 15ac7bd7466eff64bacdcf236e108cfb, type: 3}

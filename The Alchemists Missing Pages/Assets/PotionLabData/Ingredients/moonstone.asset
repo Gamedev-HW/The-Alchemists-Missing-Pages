@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2b7e00a5d097d419204e5e14e53ec7, type: 3}
+  m_Name: moonstone
+  m_EditorClassIdentifier: Assembly-CSharp::PotionLab.IngredientData
+  id: moonstone
+  displayName: Moonstone
+  hebrewName: "\u05D0\u05D1\u05DF \u05D9\u05E8\u05D7"
+  liquidTint: {r: 0.78431374, g: 0.7490196, b: 1, a: 1}
+  canSlice: 1
+  canHeat: 1
+  shelf: {fileID: 21300000, guid: 3bac94282ffd604458f18f09c134fe24, type: 3}
+  glow: {fileID: 21300000, guid: 5d7f19b06a9f0fd438f78952aa4b0f0d, type: 3}
+  raw: {fileID: 21300000, guid: f898edb7d9c281540b19e387d196fa90, type: 3}
+  sliced: {fileID: 21300000, guid: 138a7564fe968234187cf658f73d9280, type: 3}
+  heated: {fileID: 21300000, guid: 5c99a8563d2f61046914c1f3117ef626, type: 3}
+  slicedHeated: {fileID: 21300000, guid: 6e88ec59c0089f14f9404a6a3e04a726, type: 3}
