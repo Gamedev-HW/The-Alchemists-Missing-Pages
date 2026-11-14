@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2b7e00a5d097d419204e5e14e53ec7, type: 3}
+  m_Name: ember_root
+  m_EditorClassIdentifier: Assembly-CSharp::PotionLab.IngredientData
+  id: ember_root
+  displayName: Ember Root
+  hebrewName: "\u05E9\u05D5\u05E8\u05E9 \u05D2\u05D7\u05DC\u05EA"
+  liquidTint: {r: 1, g: 0.41568628, b: 0.16470589, a: 1}
+  canBe: 3
+  shelf: {fileID: 21300000, guid: d6404062d6d8aa64db095302c4136b8c, type: 3}
+  glow: {fileID: 21300000, guid: 519c5f473628c844fb8095a4f113f2ed, type: 3}
+  raw: {fileID: 21300000, guid: 9ebfa382bc0387e4fb92a66293d6e6b5, type: 3}
+  sliced: {fileID: 21300000, guid: f411d8221bbc35340b023bcaeea2bfc9, type: 3}
+  heated: {fileID: 21300000, guid: fb39043cb9e23b24886fb44b1b083008, type: 3}
+  slicedHeated: {fileID: 21300000, guid: c90285e07c1401045805d0e6d1abc8a8, type: 3}

@@ -1,8 +1,0 @@
-G:/Homebrew Games/Unity/The-Alchemists-Missing-Pages-master/The Alchemists Missing Pages/.utmp/RelWithDebInfo/19376y1n/arm64-v8a/CMakeFiles/edit_cache.dir
-G:/Homebrew Games/Unity/The-Alchemists-Missing-Pages-master/The Alchemists Missing Pages/.utmp/RelWithDebInfo/19376y1n/arm64-v8a/CMakeFiles/rebuild_cache.dir
-G:/Homebrew Games/Unity/The-Alchemists-Missing-Pages-master/The Alchemists Missing Pages/.utmp/RelWithDebInfo/19376y1n/arm64-v8a/GameActivity/CMakeFiles/game.dir
-G:/Homebrew Games/Unity/The-Alchemists-Missing-Pages-master/The Alchemists Missing Pages/.utmp/RelWithDebInfo/19376y1n/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
-G:/Homebrew Games/Unity/The-Alchemists-Missing-Pages-master/The Alchemists Missing Pages/.utmp/RelWithDebInfo/19376y1n/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir
-G:/Homebrew Games/Unity/The-Alchemists-Missing-Pages-master/The Alchemists Missing Pages/.utmp/RelWithDebInfo/19376y1n/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
-G:/Homebrew Games/Unity/The-Alchemists-Missing-Pages-master/The Alchemists Missing Pages/.utmp/RelWithDebInfo/19376y1n/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
-G:/Homebrew Games/Unity/The-Alchemists-Missing-Pages-master/The Alchemists Missing Pages/.utmp/RelWithDebInfo/19376y1n/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

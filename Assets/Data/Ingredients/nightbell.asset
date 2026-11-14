@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2b7e00a5d097d419204e5e14e53ec7, type: 3}
+  m_Name: nightbell
+  m_EditorClassIdentifier: Assembly-CSharp::PotionLab.IngredientData
+  id: nightbell
+  displayName: Nightbell Leaves
+  hebrewName: "\u05E2\u05DC\u05D9 \u05E4\u05E2\u05DE\u05D5\u05DF-\u05DC\u05D9\u05DC\u05D4"
+  liquidTint: {r: 0.5411765, g: 0.3529412, b: 0.8392157, a: 1}
+  canBe: 3
+  shelf: {fileID: 21300000, guid: 2fea414df8c89104085eb6fdfb7f732a, type: 3}
+  glow: {fileID: 21300000, guid: b9d5210d0c3c2c7449d2514a30680b93, type: 3}
+  raw: {fileID: 21300000, guid: 17f8b174ec976654f85015e83aa48040, type: 3}
+  sliced: {fileID: 21300000, guid: 1da65d74eda54ce4ba65490cc5a4e2dc, type: 3}
+  heated: {fileID: 21300000, guid: 3e1d7da2520d95f41b79621238c9348a, type: 3}
+  slicedHeated: {fileID: 21300000, guid: dd58bf9b581e2d141880ff32ba389d4f, type: 3}

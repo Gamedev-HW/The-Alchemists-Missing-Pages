@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed2b7e00a5d097d419204e5e14e53ec7, type: 3}
+  m_Name: griffin_feather
+  m_EditorClassIdentifier: Assembly-CSharp::PotionLab.IngredientData
+  id: griffin_feather
+  displayName: Griffin Feather
+  hebrewName: "\u05E0\u05D5\u05E6\u05EA \u05D2\u05E8\u05D9\u05E4\u05D5\u05DF"
+  liquidTint: {r: 0.8784314, g: 0.65882355, b: 0.2901961, a: 1}
+  canBe: 3
+  shelf: {fileID: 21300000, guid: 99d631075b1db6a438246a8a828e7f8b, type: 3}
+  glow: {fileID: 21300000, guid: 16d71a01e4491bf49a079ee267065abb, type: 3}
+  raw: {fileID: 21300000, guid: 03a9c6e8134bf4d4696307e44dd88576, type: 3}
+  sliced: {fileID: 21300000, guid: 9b3d318a96cd9f54dac28e9497d49d9b, type: 3}
+  heated: {fileID: 21300000, guid: 64809dab8dfd7d7429329bec6ed1655b, type: 3}
+  slicedHeated: {fileID: 21300000, guid: 181a6a36f7e716b44807742500133d92, type: 3}

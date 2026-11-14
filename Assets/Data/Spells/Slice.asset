@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54d5b29a572e4be186963e18d0938a38, type: 3}
+  m_Name: Slice
+  m_EditorClassIdentifier: Assembly-CSharp::PotionLab.SpellData
+  verb: SLICE
+  adds: 1
+  castClip: wizard_cast_spot
+  beamFrame: 4
+  beamColor: {r: 0.75, g: 0.88, b: 1, a: 1}
+  effects:
+  - clip: fx_slice
+    sortingOrder: 63
+    scale: 1
+    offset: {x: 0, y: 0}
+  changeFrame: 5
+  afterEffect:
+    clip: 
+    sortingOrder: 0
+    scale: 1
+    offset: {x: 0, y: 0}
+  afterEffectSeconds: 3
+  successMessage: Clean cut!
+  impossibleMessage: You can't slice {0} - it's a liquid!
+  alreadyDoneMessage: '{0} is already sliced.'
