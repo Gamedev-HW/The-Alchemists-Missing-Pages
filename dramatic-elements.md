@@ -128,27 +128,9 @@ xychart-beta
 
 The main recipe sequence is linear in the current code: a correct potion advances the book. Wrong attempts create different speech/journal feedback, but do not branch into separate levels. For the proposed story layer, optional discoveries can affect a final epilogue: an apprentice who studies many reactions becomes a careful researcher; one who focuses on rapid successful brews becomes a practical master. Neither route should lock out the core game.
 
-### Twine branching story deliverable
+### Twine Demo
 
-The assignment additionally requires a **playable HTML exported from Twine**. This Markdown file documents the proposed story but is **not itself** a Twine export. A separate HTML/Twine artifact must be created and submitted. Suggested passages and branches:
-
-```text
-Start: Find the damaged book
-  -> Read the master's note -> StudyFirst
-  -> Go straight to the cauldron -> ExperimentFirst
-StudyFirst / ExperimentFirst -> Moonlight
-Moonlight -> SuccessMoonlight / FailureMoonlight
-FailureMoonlight -> ReviewJournal -> Moonlight
-SuccessMoonlight -> Ember
-Ember -> SuccessEmber / FailureEmber
-FailureEmber -> ReviewJournal -> Ember
-SuccessEmber -> Frostfire
-Frostfire -> SuccessFrostfire / FailureFrostfire
-FailureFrostfire -> ReviewJournal -> Frostfire
-SuccessFrostfire -> FinaleCareful / FinaleBold
-```
-
-The branch choices are narrative; actual potion success remains determined by the Unity recipe rules.
+https://gamedev-hw.github.io/The-Alchemists-Missing-Pages/story.html
 
 ## 8. Worldbuilding
 
