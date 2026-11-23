@@ -41,6 +41,12 @@ namespace PotionLab.EditorTools
             LevelSceneBuilder.Build();
         }
 
+        [MenuItem("Potion Lab/Add Live Ops to the Open Scene", false, 40)]
+        public static void AddLiveOps()
+        {
+            LiveOpsBuilder.AddToOpenScene();
+        }
+
         [MenuItem("Potion Lab/3 - Configure Player Settings (PC + Android)", false, 20)]
         public static void ConfigurePlayerSettings()
         {

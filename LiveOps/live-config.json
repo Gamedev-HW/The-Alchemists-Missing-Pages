@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "events": [
+    {
+      "id": "winter-solstice-2026",
+      "title": "Winter Solstice",
+      "startUtc": "2026-12-21T00:00:00Z",
+      "endUtc": "2026-12-23T00:00:00Z",
+      "startMessage": "The longest night of the year! A warm Solstice recipe appeared in the book.",
+      "successMessage": "Solstice Ember Brew! That will keep the dungeon warm all night.",
+      "roomTint": "#FFD9B3",
+      "recipe": {
+        "potionName": "Solstice Ember Brew",
+        "bookText": "WINTER SOLSTICE - two nights only!\n1. POUR to the silver band.\n2. Ember Root, HEATED.\n3. Sun Honey, ~~~~~~~~~ (wax dripped on the page).\n4. MIX twice, then SERVE.",
+        "pourMin": 0.40,
+        "pourMax": 0.62,
+        "orderMatters": true,
+        "mixTimes": 2,
+        "color": "#FF8A3D",
+        "steps": [
+          { "ingredient": "ember_root", "prep": "Heated" },
+          { "ingredient": "sun_honey", "prep": "Raw" }
+        ]
+      }
+    },
+    {
+      "id": "full-moon-night",
+      "title": "Full Moon Night",
+      "startUtc": "2026-11-23T00:00:00Z",
+      "endUtc": "2027-01-15T00:00:00Z",
+      "startMessage": "The full moon is up! A special recipe appeared in the book: the Silver Moon Draught.",
+      "successMessage": "Full Moon Night: you brewed the Silver Moon Draught!",
+      "roomTint": "#B4C3FF",
+      "recipe": {
+        "potionName": "Silver Moon Draught",
+        "bookText": "FULL MOON SPECIAL\n1. POUR to the silver band.\n2. Silver Dew, just as it is.\n3. Moonstone, ~~~~~~ (moonlight hides the word).\n4. MIX ~~ times and SERVE.",
+        "pourMin": 0.40,
+        "pourMax": 0.62,
+        "orderMatters": true,
+        "mixTimes": 3,
+        "color": "#DDE4FF",
+        "steps": [
+          { "ingredient": "silver_dew", "prep": "Raw" },
+          { "ingredient": "moonstone", "prep": "Sliced" }
+        ]
+      }
+    }
+  ]
+}

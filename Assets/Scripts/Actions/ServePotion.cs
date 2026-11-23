@@ -67,9 +67,9 @@ namespace PotionLab
             beam.Hide();
             effects.Spawn(sparkle, vial.Point);
             student.Play(happyClip);
-            potionBrewed.Raise();
             Say($"Perfect! {recipe.potionName} is ready!");
             Log($"SUCCESS: {recipe.potionName} brewed!");
+            potionBrewed.Raise();   // after the default message, so listeners (e.g. a live event) can add their own
             yield return new WaitForSeconds(celebrateSeconds);
 
             vial.Clear();

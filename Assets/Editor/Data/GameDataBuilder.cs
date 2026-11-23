@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
@@ -85,8 +86,23 @@ namespace PotionLab.EditorTools
             data.potionFailed = AssetFiles.LoadOrCreate<GameEvent>(events + "Potion Failed.asset");
             data.speech = AssetFiles.LoadOrCreate<TextEvent>(events + "Student Says.asset");
             data.journal = AssetFiles.LoadOrCreate<TextEvent>(events + "Journal Entry.asset");
+            data.configLoaded = AssetFiles.LoadOrCreate<LiveConfigEvent>(events + "Live Config Loaded.asset");
+            data.roomMood = AssetFiles.LoadOrCreate<ColorEvent>(events + "Room Mood.asset");
+            data.builtInLiveConfig = BuiltInLiveConfig(folder + "/LiveOps/live-config-default.json");
             AssetDatabase.SaveAssets();
             return data;
+        }
+
+        /// <summary>The live config shipped inside the game, used offline. Created with no events if it's missing.</summary>
+        static TextAsset BuiltInLiveConfig(string path)
+        {
+            if (!File.Exists(path))
+            {
+                AssetFiles.EnsureFolder(ArtFinder.ParentFolder(path));
+                File.WriteAllText(path, "{\n  \"version\": 1,\n  \"events\": []\n}\n");
+                AssetDatabase.ImportAsset(path);
+            }
+            return AssetDatabase.LoadAssetAtPath<TextAsset>(path);
         }
 
         static SpellData Spell(string path, System.Action<SpellData> preset)

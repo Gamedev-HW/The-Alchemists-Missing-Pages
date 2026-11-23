@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace PotionLab.EditorTools
 {
@@ -20,6 +21,11 @@ namespace PotionLab.EditorTools
         public GameEvent potionFailed;
         public TextEvent speech;
         public TextEvent journal;
+
+        // live ops
+        public LiveConfigEvent configLoaded;
+        public ColorEvent roomMood;
+        public TextAsset builtInLiveConfig;
 
         public bool HasAnimations => library != null && library.clips.Count > 0;
     }

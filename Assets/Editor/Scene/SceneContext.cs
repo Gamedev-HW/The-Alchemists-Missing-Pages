@@ -12,6 +12,7 @@ namespace PotionLab.EditorTools
         public readonly List<Object> services = new List<Object>();
 
         public Camera camera;
+        public Transform room;
         public BackButton backButton;
         public ShelfItem shelfItemPrefab;
         public Transform workSpot;
@@ -41,7 +42,10 @@ namespace PotionLab.EditorTools
                 { "cauldronClicked", data.cauldronClicked },
                 { "toggleRequested", data.recipeBookToggled },
                 { "potionBrewed", data.potionBrewed },
-                { "potionFailed", data.potionFailed }
+                { "potionFailed", data.potionFailed },
+                { "configLoaded", data.configLoaded },
+                { "roomMood", data.roomMood },
+                { "builtInConfig", data.builtInLiveConfig }
             };
         }
     }

@@ -28,6 +28,7 @@ namespace PotionLab.EditorTools
             context.Add(SceneFactory.Group("Effects", game).gameObject.AddComponent<EffectSpawner>());
             BuildActions(context, SceneFactory.Group("Actions", game));
             BuildPlatform(context, SceneFactory.Group("Platform", game));
+            LiveOpsBuilder.Build(game, context.room, context.data);
         }
 
         static void BuildActions(SceneContext context, Transform actions)

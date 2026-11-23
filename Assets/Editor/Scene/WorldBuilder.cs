@@ -28,6 +28,7 @@ namespace PotionLab.EditorTools
         static void BuildRoom(SceneContext context)
         {
             Transform room = SceneFactory.Group("Room");
+            context.room = room;
             SceneFactory.Sprite("Background", room, ArtFinder.FindSprite("bg_lab"), 0f, 0f, 0);
             SceneFactory.Sprite("Vignette", room, ArtFinder.FindSprite("fg_vignette"), 0f, 0f, 90);
             SceneFactory.Sprite("Counter", room, ArtFinder.FindSprite("fg_counter"), 2.35f, -3.075f, 30);
