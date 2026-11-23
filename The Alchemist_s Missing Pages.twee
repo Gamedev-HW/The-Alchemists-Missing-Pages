@@ -1,0 +1,117 @@
+:: StoryTitle
+The Alchemist’s Missing Pages
+
+
+:: StoryData
+{
+  "ifid": "A3E65BB2-76D2-4F1D-AB72-BB6A71AC8F91",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Start",
+  "zoom": 1
+}
+
+
+:: Ember {"position":"900,25","size":"100,100"}
+!! Chapter II — Ember Tonic
+The page says: “POUR to the silver band. HEAT Ember Root. Nightbell Leaves — ~~~~~~~. Add Sun Honey just as it is. MIX three times. The order matters!” Which sequence will you use?
+
+<<link "Heated Ember Root → sliced Nightbell Leaves → raw Sun Honey; mix 3" "EmberSuccess">><<set $successes += 1>><</link>>
+<<link "Raw Sun Honey → heated Ember Root → sliced Nightbell Leaves; mix 3" "EmberFail">><<set $failures += 1>><</link>>
+<<link "Heated Ember Root → heated Nightbell Leaves → raw Sun Honey; mix 3" "EmberFail">><<set $failures += 1>><</link>>
+
+
+:: EmberFail {"position":"1025,25","size":"100,100"}
+!! The Ember Turns to Smoke
+A cloud of orange smoke rolls across the bench. The order or preparation is wrong. The journal preserves the result so you can correct the next attempt.
+
+<<link "Read the notes and retry Ember Tonic" "Ember">><<set $journal += 1>><</link>>
+
+
+:: EmberSuccess {"position":"1150,25","size":"100,100"}
+!! The Second Page Returns
+The tonic glows warm amber. A second parchment fragment emerges: “To balance flame, bind it with frost.” Only the most complex formula remains.
+
+<<link "Turn to Frostfire Brew" "Frostfire">><</link>>
+
+
+:: Ending {"position":"400,150","size":"100,100"}
+!! Epilogue
+The laboratory is whole again. The apprentice has restored the three recipes and learned that errors are clues, not endings. Your choices shape the closing note.
+
+<<if $careful >= $bold>>You became a thoughtful scholar who reads every clue before acting.<<else>>You became a fearless experimenter who learns by testing possibilities.<</if>>
+You made <<= $failures>> unsuccessful attempts and consulted the journal <<= $journal>> times.
+
+<<link "Begin a new story" "Start">><<set $careful = 0>><<set $bold = 0>><<set $journal = 0>><<set $failures = 0>><<set $successes = 0>><</link>>
+
+
+:: Experiment {"position":"400,25","size":"100,100"}
+!! A Bold Beginning
+You rush to the cauldron. A stray spark stains your sleeve. Perhaps the missing pages will be recovered through trial and error rather than caution.
+
+<<link "Open the Moonlight Elixir page" "Moonlight">><</link>>
+
+
+:: FrostFail {"position":"150,150","size":"100,100"}
+!! A Frostfire Backlash
+The cauldron flashes blue and orange, then falls quiet. One preparation or the stirring count is wrong. You can still try again.
+
+<<link "Consult the journal and retry" "Frostfire">><<set $journal += 1>><</link>>
+
+
+:: FrostSuccess {"position":"275,150","size":"100,100"}
+!! The Final Page
+The potion holds both blue frost and amber flame without breaking apart. The book’s final missing page materializes. A handwritten message appears: “The book was never meant to give every answer. It was meant to teach you to discover them.”
+
+<<link "Read your ending" "Ending">><</link>>
+
+
+:: Frostfire {"position":"25,150","size":"100,100"}
+!! Chapter III — Frostfire Brew
+The last recipe reads: “POUR to the silver band. Frost Lily, sliced. Dragon Scale, sliced AND heated. Glowcap Mushrooms, ~~~~~~. A drop of Star Essence to finish. MIX ~~ times.” The formula depends on every step.
+
+<<link "Sliced Frost Lily → sliced+heated Dragon Scale → heated Glowcap → raw Star Essence; mix 4" "FrostSuccess">><<set $successes += 1>><</link>>
+<<link "Sliced Frost Lily → heated Dragon Scale → raw Glowcap → raw Star Essence; mix 4" "FrostFail">><<set $failures += 1>><</link>>
+<<link "Correct ingredients in order, but mix twice" "FrostFail">><<set $failures += 1>><</link>>
+
+
+:: MoonFail {"position":"650,25","size":"100,100"}
+!! A Silver Mishap
+The cauldron sputters and the apprentice coughs. Your journal points to the first mismatch: ingredient preparation or stirring count. The recipe is still recoverable.
+
+<<link "Review the journal and try again" "Moonlight">><<set $journal += 1>><</link>>
+
+
+:: MoonSuccess {"position":"775,25","size":"100,100"}
+!! The First Page Returns
+Silver light fills the vial. The hidden number becomes clear: TWO. A strip of parchment reappears, carrying the message: “Fire reveals what shadow conceals.”
+
+<<link "Turn to Ember Tonic" "Ember">><</link>>
+
+
+:: Moonlight {"position":"525,25","size":"100,100"}
+!! Chapter I — Moonlight Elixir
+The first page reads: “POUR to the silver band. Take Moonstone, SLICE it, and send it TO THE POT. MIX ~~~ times. SERVE.” The missing number must be deduced. How will you prepare the first brew?
+
+<<link "Slice Moonstone, pour to the silver band, mix twice" "MoonSuccess">><<set $successes += 1>><</link>>
+<<link "Heat Moonstone and mix twice" "MoonFail">><<set $failures += 1>><</link>>
+<<link "Slice Moonstone but mix four times" "MoonFail">><<set $failures += 1>><</link>>
+
+
+:: Start {"position":"150,25","size":"100,100"}
+!! The Missing Pages
+The laboratory is silent. Your master’s recipe book lies open, its instructions scarred by ink and torn edges. Three recipes remain: Moonlight Elixir, Ember Tonic, and Frostfire Brew. Each successful brew may restore a fragment of the lost knowledge.
+
+<<link "Read the master’s note" "Study">><<set $careful += 1>><</link>>
+<<link "Begin experimenting immediately" "Experiment">><<set $bold += 1>><</link>>
+
+
+:: StoryInit {"position":"25,25","size":"100,100"}
+<<set $careful = 0>><<set $bold = 0>><<set $journal = 0>><<set $failures = 0>><<set $successes = 0>>
+
+
+:: Study {"position":"275,25","size":"100,100"}
+!! The Master’s Note
+“The silver band measures the base liquid. Preparation matters. Order matters. And every failed potion teaches you something.” You copy the warning into your journal.
+
+<<link "Open the Moonlight Elixir page" "Moonlight">><</link>>
